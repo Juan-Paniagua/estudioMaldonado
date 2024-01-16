@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+    <title>Estudio Maldonado</title>
+</head>
+
+<body>
+    <section class="top-section">
+        <header>
+            <!--Navbar -->>
+            <nav class="navbar bg-black fixed-top" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="Images/navbar_icon.png"
+                            class="rounded float-start img-fluid d-inline-block" width=250px></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon text-warning"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end bg-black" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title text-warning" id="offcanvasNavbarLabel"><img
+                                    src="Images/navbar_icon.png" class="rounded float-start img-fluid d-inline-block"
+                                    width=250px></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-warning" aria-current="page" href="#">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-warning" href="#">A que nos dedicamos?</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-warning" href="#">Conoce tus derechos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-warning" href="#">Contacto</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-warning" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item text-warning" href="#">Action</a></li>
+                                        <li><a class="dropdown-item text-warning" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-warning" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <form class="d-flex mt-3" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!--Navbar end-->
+        </header>
+    </section>
+    <div class="masthead" style="background-image: url(Images/banner.jpg);">
+        <div class="color-overlay d-flex flex-column justify-content-center align-items-left">
+            <h1>Quienes somos?</h1>
+            <p>Somos un estudio juridico Integral. Estamos capacitados para resolver todas sus cuestiones juridicas.
+                Nuestro objetivo es resolver todas sus cuestiones juridicas y otorgar la solucion mas eficaz posible.
+                Nos ajustamos a las exigencias de cada cliente</p>
+            <button type="button" class="btn btn-primary btn-lg align-self-baseline">Contactenos</button>
+        </div>
+    </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2>Trabajamos todo tipo de asunto legal</h2>
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card">
+                        <img src="Images/transit.jpeg" class="card-img-top" alt="transit-img">
+                        <div class="card-body">
+                            <h4 class="card-title">Derecho del <br>automotor</h4>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Transferencias</li>
+                                <li class="list-group-item">Informes de dominio</li>
+                                <li class="list-group-item">Denuncuias de venta</li>
+                                <li class="list-group-item">Prendas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card">
+                        <img src="Images/laboral.jpg" class="card-img-top" alt="laboral-img">
+                        <div class="card-body">
+                            <h4 class="card-title">Derecho laboral</h4>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Despidos</li>
+                                <li class="list-group-item">Trabajo en negro</li>
+                                <li class="list-group-item">Accidentes ART</li>
+                                <li class="list-group-item">Registro deficiente</li>
+                                <li class="list-group-item">Diferencias salariales</li>
+                                <li class="list-group-item">Licencias</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="card">
+                        <img src="Images/contratos.jpeg" class="card-img-top" alt="civil-img">
+                        <div class="card-body">
+                            <h4 class="card-title">Derecho civil</h4>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Alquileres</li>
+                                <li class="list-group-item">Contratos</li>
+                                <li class="list-group-item">Locaciones</li>
+                                <li class="list-group-item">Usucapion</li>
+                                <li class="list-group-item">Desalojos</li>
+                                <li class="list-group-item">Sucesiones</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="mail-box">
+            <h2>Conoce tus derechos</h2>
+            <div>
+                <form class="row g-3" action="">
+                    <div class="col-md-6">
+                        <label for="first-name" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="first-name" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="surname" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="surname" required>
+                    </div>
+                    <div class="col-md-8">
+                        <label for="email">Direccion de correo</label>
+                        <input type="text" class="form-control" id="email" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="telephone">Telefono / Whatsapp</label>
+                        <input type="text" class="form-control" id="telephone" required>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="message" class="form-lable">Su mensaje</label>
+                        <textarea class="form-control" id="message" rows="3" required></textarea>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section class="contact-us">
+            <div class="contact-content">
+                <h3>Direccion</h3>
+                <h5>Campbell 200</h5>
+            </div>
+            <div class="contact-content">
+                <h3>Contactanos al:</h5>
+                    <ul>
+                        <li>Telefono</li>
+                        <p>1133557799</p>
+                        <li>Mail</li>
+                        <p>estudiodmaldonado@gmail.com</p>
+                    </ul>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
