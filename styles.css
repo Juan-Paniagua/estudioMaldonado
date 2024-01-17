@@ -16,6 +16,14 @@
     height: 18vh;
 }
 
+.offcanvas{
+    width:50% !important;
+}
+
+.offcanvas-title {
+  padding-left: 20px;
+}
+
 .masthead {
   background-size: cover;
   min-height: 100vh;
