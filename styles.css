@@ -111,12 +111,12 @@ footer {
 
 @media (min-width: 1200px) { 
     .whatsapp-link {
-        top:86%;
-        left:89%;
+        top:85%;
+        left:87%;
     }
 
     .whatsapp-link>a>img {
-        width: 12vw;
-        height: 12vh;
+        width: 14vw;
+        height: 14vh;
     }
 }
