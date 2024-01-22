@@ -71,11 +71,14 @@
 }
 
 .masthead > div > h1 {
-  font-size: 3.8rem;
+  font-size: 4rem;
+  padding-top: 32px;
+  padding-bottom: 30px;
 }
 
 .masthead > div > p {
-  font-size: 1.75rem;
+  font-size: 1.8rem;
+  padding-bottom: 40px;
 }
 
 .card {
