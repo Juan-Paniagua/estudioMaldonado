@@ -54,7 +54,7 @@
 
 .masthead {
   background-size: cover;
-  min-height: 100vh;
+  min-height: 120vh;
   position: relative;
   color: white;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
@@ -103,9 +103,39 @@
   padding: 20px;
 }
 
-.contact-form {
-  color: ;
+/* .popup {
+  width: 400px;
+  background-color: black;
+  border-radius: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #c59444;
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
 }
+
+.open-popup {
+  visibility: visible;
+} */
+
+.popup-img {
+  width: 100px;
+  margin-top: -50px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup-title {
+  font-size: 38px;
+  font-weight: 400;
+  padding-bottom: 5px;
+}
+
+
 
 footer {
   background-color: black;
@@ -121,5 +151,9 @@ footer {
     .whatsapp-link>a>img {
         width: 14vw;
         height: 14vh;
+    }
+
+    .masthead {
+      min-height: 100vh;
     }
 }
