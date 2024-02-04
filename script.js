@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
     $.ajax({
-        url: "https://formsubmit.co/ajax/7ad246b863079fb8880f9775992f7aef",
+        url: "https://formsubmit.co/ajax/8dccc3f1f89f7768dfbaa7a0fed67baf",
         method: "POST",
         data: formData,
         dataType: "json",
