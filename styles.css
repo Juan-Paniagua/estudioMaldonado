@@ -28,9 +28,11 @@
   transition-delay: 0.1s;
 }
 
+
 .navbar-brand>img {
-  height: 130px;
-  width: 450px;
+  padding: 15px;
+  height: 95%;
+  width: 95%;
 }
 
 .nav-item {
