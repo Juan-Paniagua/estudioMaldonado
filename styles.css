@@ -30,8 +30,8 @@
 
 
 .navbar-brand>img {
-  padding: 15px;
-  height: 175px;
+  padding: 12px;
+  height: 145px;
   width: 400px;
 }
 
@@ -175,8 +175,8 @@ footer {
     }
 
     .navbar-brand>img {
-      padding: 10px;
-      height: 215px;
+      padding: 5px;
+      height: 175px;
       width: 600px;
     }
 }
