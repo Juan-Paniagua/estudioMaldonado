@@ -1,0 +1,4 @@
+# robots.txt para HTTPS://www.estudiodmaldonado.com.ar
+
+User-agent: Googlebot
+Disallow:
